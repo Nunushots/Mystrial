@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletprefab: {fileID: 6400022035169816926, guid: e8306e7b4cd32fd4ea540c665abbba4d, type: 3}
-  bulletMoveSpeed: 9
+  bulletMoveSpeed: 7
   burstCount: 60
   projectilesPerBurst: 12
   angleSpread: 329
@@ -740,6 +740,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33e1ea6434e98ce4daa60219eb015224, type: 3}
+--- !u!1001 &180894275
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578487706875978628, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423992655593274597, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
+      propertyPath: m_Name
+      value: Snow Particle system
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ebf78f5b5b42b44b8eda17668cf953d, type: 3}
 --- !u!1001 &235959650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32301,3 +32358,4 @@ SceneRoots:
   - {fileID: 1004555810}
   - {fileID: 235959650}
   - {fileID: 1325035565}
+  - {fileID: 180894275}

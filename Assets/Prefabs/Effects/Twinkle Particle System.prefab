@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8488816428700875428}
   - component: {fileID: 1869744570436971527}
   m_Layer: 0
-  m_Name: TwinkleParticle System
+  m_Name: Twinkle Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
