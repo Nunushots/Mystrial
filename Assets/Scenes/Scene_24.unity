@@ -29371,6 +29371,125 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8787595826266957392, guid: 4cccd46a0f63b7d4f981680032505cf8, type: 3}
   m_PrefabInstance: {fileID: 658798675}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &670667067
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1722094063771213500, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: boss
+      value: 
+      objectReference: {fileID: 98355733}
+    - target: {fileID: 4220069387338950858, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_Name
+      value: BossPanelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535144466875577177, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6959971944502712865, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_text
+      value: 'Forests whispered with corruption, and creatures turned hostile under
+        unseen influence.
+
+        The balance of nature fractured as the planet
+        struggled to contain the spreading chaos.
+
+        At the heart of Aetheraelis,
+        an ancient guardian stirred.
+
+        A force that had always maintained
+        harmony was now changing.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355733163452533758, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67f29fd273657ce49a2f32f924bc721a, type: 3}
 --- !u!1001 &711598385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32359,3 +32478,4 @@ SceneRoots:
   - {fileID: 235959650}
   - {fileID: 1325035565}
   - {fileID: 180894275}
+  - {fileID: 670667067}
