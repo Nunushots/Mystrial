@@ -100,9 +100,9 @@ GameObject:
   - component: {fileID: 8876659762022465459}
   - component: {fileID: 1863393749724295325}
   - component: {fileID: 6515881365965636813}
-  - component: {fileID: 1263517560182967090}
   - component: {fileID: 5356622480027592374}
   - component: {fileID: 7361604155222345897}
+  - component: {fileID: 7486903094072322936}
   m_Layer: 0
   m_Name: Stumpy-enemy
   m_TagString: Untagged
@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
+  isBoss: 0
 --- !u!114 &6515881365965636813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,27 +299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteFlash: {fileID: 2100000, guid: 06ced354c1b7b424290c0e38bd534cec, type: 2}
   restoreDefaultMatTime: 0.2
---- !u!95 &1263517560182967090
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9141140940662459934}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a7e66014ff4ae4e4fb2cb325ada6d4da, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5356622480027592374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,3 +336,24 @@ MonoBehaviour:
   goldCoinPrefab: {fileID: 6664335751679295846, guid: 0282477c22e78d3408a6231ff43184c8, type: 3}
   healthGlobePrefab: {fileID: 4797777854111083974, guid: 83a2ab9226af5cd4eb2508e110ec5f5e, type: 3}
   StaminaGlobePrefab: {fileID: 67484228738847660, guid: 8a5a07203b4c5264ba13a10e29652ef9, type: 3}
+--- !u!95 &7486903094072322936
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141140940662459934}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d03ae56e540c6984899868479c05b816, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -100,9 +100,9 @@ GameObject:
   - component: {fileID: 1758956343086290198}
   - component: {fileID: 2699522666443207014}
   - component: {fileID: 4634761635622366756}
-  - component: {fileID: 2270317122121444789}
   - component: {fileID: 7403064546806199150}
   - component: {fileID: -3453166987053594705}
+  - component: {fileID: 8301406048301090711}
   m_Layer: 0
   m_Name: Goblin-enemy
   m_TagString: Untagged
@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
+  isBoss: 0
 --- !u!114 &4634761635622366756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,27 +299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteFlash: {fileID: 2100000, guid: 06ced354c1b7b424290c0e38bd534cec, type: 2}
   restoreDefaultMatTime: 0.2
---- !u!95 &2270317122121444789
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8588830712137420940}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 08a01c9350250e94aa65f30d4784afe6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7403064546806199150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,3 +327,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 2855229169807593413, guid: ba1e01c620457b548809da288be3ff29, type: 3}
+--- !u!95 &8301406048301090711
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8588830712137420940}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 963052c63f6444e4796398f0cc5af9a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

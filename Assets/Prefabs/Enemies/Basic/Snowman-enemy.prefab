@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 1243033867581660933}
   - component: {fileID: 2092962943545574703}
   - component: {fileID: 6549066490262248744}
-  - component: {fileID: 189241107818484430}
+  - component: {fileID: 5062206316265901750}
   m_Layer: 0
   m_Name: Snowman-enemy
   m_TagString: Untagged
@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 8
+  isBoss: 0
 --- !u!114 &1243033867581660933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,7 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4204129563285745268, guid: 597bfde560962ca4fab9526ff8d7125d, type: 3}
---- !u!95 &189241107818484430
+--- !u!95 &5062206316265901750
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -336,7 +337,7 @@ Animator:
   m_GameObject: {fileID: 6103131041338452611}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3638fda68d5bdc340b0fb7ef0fe61347, type: 2}
+  m_Controller: {fileID: 9100000, guid: c48884ed06eb884458c4293325187d37, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

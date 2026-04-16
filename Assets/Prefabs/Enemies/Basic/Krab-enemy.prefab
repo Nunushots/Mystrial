@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 8115679548776458823}
   - component: {fileID: 1504402715023250905}
   - component: {fileID: 121878737117837683}
-  - component: {fileID: 6834041028477260997}
+  - component: {fileID: 328782264672254335}
   m_Layer: 0
   m_Name: Krab-enemy
   m_TagString: Untagged
@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 4
+  isBoss: 0
 --- !u!114 &8115679548776458823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,7 +336,7 @@ MonoBehaviour:
   restTime: 1
   stagger: 1
   oscillate: 1
---- !u!95 &6834041028477260997
+--- !u!95 &328782264672254335
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -345,7 +346,7 @@ Animator:
   m_GameObject: {fileID: 7581436093761525333}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dda7d415edb7b104f8fb573d1ce489a9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 49bf40c06df806840860ab7fbb56edc3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

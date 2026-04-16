@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4620737431452450082}
   - component: {fileID: 7181222535605760925}
   - component: {fileID: 7957666796315690184}
-  - component: {fileID: 1027502826114475374}
+  - component: {fileID: 2177660021460502491}
   m_Layer: 0
   m_Name: Lava-slime-enemy
   m_TagString: Untagged
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 6040936614306232865, guid: a634e918aab722c498c039e824edfc34, type: 3}
---- !u!95 &1027502826114475374
+--- !u!95 &2177660021460502491
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -253,7 +253,7 @@ Animator:
   m_GameObject: {fileID: 1052795593176507896}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 71347aa42c91ebb4d845c13b63c5c5c3, type: 2}
+  m_Controller: {fileID: 9100000, guid: cea04a6da308889469ec1b88e2b12fe0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1415635460850001210}
   - component: {fileID: 5330472686129096739}
   - component: {fileID: 4971417242919024884}
-  - component: {fileID: 1020208133439280306}
+  - component: {fileID: 3799938634851939222}
   m_Layer: 0
   m_Name: Skeleton-enemy
   m_TagString: Untagged
@@ -252,7 +252,7 @@ MonoBehaviour:
   restTime: 0.1
   stagger: 1
   oscillate: 1
---- !u!95 &1020208133439280306
+--- !u!95 &3799938634851939222
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ Animator:
   m_GameObject: {fileID: 2645956053955792393}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a322ea4e0df3ed5408be3412e2cf8c97, type: 2}
+  m_Controller: {fileID: 9100000, guid: f2ed36b581ac3074296de5c5b3606527, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

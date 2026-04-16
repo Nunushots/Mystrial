@@ -18,8 +18,8 @@ GameObject:
   - component: {fileID: 8448764119203287610}
   - component: {fileID: 4135962517133946142}
   - component: {fileID: 828083421708885611}
-  - component: {fileID: 375335805535754696}
   - component: {fileID: 6116865397142756890}
+  - component: {fileID: 6989997889449861400}
   m_Layer: 0
   m_Name: Frostee-enemy
   m_TagString: Untagged
@@ -201,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 6
+  isBoss: 0
 --- !u!114 &8448764119203287610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,27 +253,6 @@ MonoBehaviour:
   restTime: 1
   stagger: 0
   oscillate: 0
---- !u!95 &375335805535754696
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528642101405791310}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3d695f6e31aee6041a72f444a68e0d92, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &6116865397142756890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +265,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34adf6d535820324298126f1a2ebba59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &6989997889449861400
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528642101405791310}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a23de5817c470349a334ebc4870ff4d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2424634351202691645
 GameObject:
   m_ObjectHideFlags: 0

@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 1704221241779700358}
   - component: {fileID: 3346620070272168644}
   - component: {fileID: 2713323324695592816}
-  - component: {fileID: 232426023284975949}
+  - component: {fileID: 5066853977262275954}
   m_Layer: 0
   m_Name: Sand-totem-enemy
   m_TagString: Untagged
@@ -306,7 +306,7 @@ MonoBehaviour:
   restTime: 0.1
   stagger: 0
   oscillate: 0
---- !u!95 &232426023284975949
+--- !u!95 &5066853977262275954
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ Animator:
   m_GameObject: {fileID: 6240700634237378748}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f102afb660b843a449094a407c8841b0, type: 2}
+  m_Controller: {fileID: 9100000, guid: f745643dec344764a809cc28dfba08a3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
